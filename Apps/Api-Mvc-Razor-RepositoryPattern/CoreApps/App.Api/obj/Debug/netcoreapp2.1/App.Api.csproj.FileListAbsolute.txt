@@ -1,0 +1,14 @@
+D:\GIT Repos\ASP.NET-Core-2.1\Apps\Api-Mvc-Razor-RepositoryPattern\CoreApps\App.Api\obj\Debug\netcoreapp2.1\App.Api.csproj.CoreCompileInputs.cache
+D:\GIT Repos\ASP.NET-Core-2.1\Apps\Api-Mvc-Razor-RepositoryPattern\CoreApps\App.Api\obj\Debug\netcoreapp2.1\App.Api.RazorAssemblyInfo.cache
+D:\GIT Repos\ASP.NET-Core-2.1\Apps\Api-Mvc-Razor-RepositoryPattern\CoreApps\App.Api\obj\Debug\netcoreapp2.1\App.Api.RazorAssemblyInfo.cs
+D:\GIT Repos\ASP.NET-Core-2.1\Apps\Api-Mvc-Razor-RepositoryPattern\CoreApps\App.Api\obj\Debug\netcoreapp2.1\App.Api.AssemblyInfoInputs.cache
+D:\GIT Repos\ASP.NET-Core-2.1\Apps\Api-Mvc-Razor-RepositoryPattern\CoreApps\App.Api\obj\Debug\netcoreapp2.1\App.Api.AssemblyInfo.cs
+D:\GIT Repos\ASP.NET-Core-2.1\Apps\Api-Mvc-Razor-RepositoryPattern\CoreApps\App.Api\bin\Debug\netcoreapp2.1\App.Api.deps.json
+D:\GIT Repos\ASP.NET-Core-2.1\Apps\Api-Mvc-Razor-RepositoryPattern\CoreApps\App.Api\bin\Debug\netcoreapp2.1\App.Api.runtimeconfig.json
+D:\GIT Repos\ASP.NET-Core-2.1\Apps\Api-Mvc-Razor-RepositoryPattern\CoreApps\App.Api\bin\Debug\netcoreapp2.1\App.Api.runtimeconfig.dev.json
+D:\GIT Repos\ASP.NET-Core-2.1\Apps\Api-Mvc-Razor-RepositoryPattern\CoreApps\App.Api\bin\Debug\netcoreapp2.1\App.Api.dll
+D:\GIT Repos\ASP.NET-Core-2.1\Apps\Api-Mvc-Razor-RepositoryPattern\CoreApps\App.Api\bin\Debug\netcoreapp2.1\App.Api.pdb
+D:\GIT Repos\ASP.NET-Core-2.1\Apps\Api-Mvc-Razor-RepositoryPattern\CoreApps\App.Api\obj\Debug\netcoreapp2.1\App.Api.RazorTargetAssemblyInfo.cache
+D:\GIT Repos\ASP.NET-Core-2.1\Apps\Api-Mvc-Razor-RepositoryPattern\CoreApps\App.Api\obj\Debug\netcoreapp2.1\App.Api.dll
+D:\GIT Repos\ASP.NET-Core-2.1\Apps\Api-Mvc-Razor-RepositoryPattern\CoreApps\App.Api\obj\Debug\netcoreapp2.1\App.Api.pdb
+D:\GIT Repos\ASP.NET-Core-2.1\Apps\Api-Mvc-Razor-RepositoryPattern\CoreApps\App.Api\obj\Debug\netcoreapp2.1\App.Api.csprojAssemblyReference.cache
