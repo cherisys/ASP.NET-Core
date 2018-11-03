@@ -1,0 +1,14 @@
+D:\GIT Repos\ASP.NET-Core-2.1\Apps\AsyncGenericRepository\LoggerService\bin\Debug\netcoreapp2.1\LoggerService.deps.json
+D:\GIT Repos\ASP.NET-Core-2.1\Apps\AsyncGenericRepository\LoggerService\bin\Debug\netcoreapp2.1\LoggerService.dll
+D:\GIT Repos\ASP.NET-Core-2.1\Apps\AsyncGenericRepository\LoggerService\bin\Debug\netcoreapp2.1\LoggerService.pdb
+D:\GIT Repos\ASP.NET-Core-2.1\Apps\AsyncGenericRepository\LoggerService\bin\Debug\netcoreapp2.1\Contracts.dll
+D:\GIT Repos\ASP.NET-Core-2.1\Apps\AsyncGenericRepository\LoggerService\bin\Debug\netcoreapp2.1\Entities.dll
+D:\GIT Repos\ASP.NET-Core-2.1\Apps\AsyncGenericRepository\LoggerService\bin\Debug\netcoreapp2.1\Contracts.pdb
+D:\GIT Repos\ASP.NET-Core-2.1\Apps\AsyncGenericRepository\LoggerService\bin\Debug\netcoreapp2.1\Entities.pdb
+D:\GIT Repos\ASP.NET-Core-2.1\Apps\AsyncGenericRepository\LoggerService\obj\Debug\netcoreapp2.1\LoggerService.csprojAssemblyReference.cache
+D:\GIT Repos\ASP.NET-Core-2.1\Apps\AsyncGenericRepository\LoggerService\obj\Debug\netcoreapp2.1\LoggerService.csproj.CoreCompileInputs.cache
+D:\GIT Repos\ASP.NET-Core-2.1\Apps\AsyncGenericRepository\LoggerService\obj\Debug\netcoreapp2.1\LoggerService.AssemblyInfoInputs.cache
+D:\GIT Repos\ASP.NET-Core-2.1\Apps\AsyncGenericRepository\LoggerService\obj\Debug\netcoreapp2.1\LoggerService.AssemblyInfo.cs
+D:\GIT Repos\ASP.NET-Core-2.1\Apps\AsyncGenericRepository\LoggerService\obj\Debug\netcoreapp2.1\LoggerService.csproj.CopyComplete
+D:\GIT Repos\ASP.NET-Core-2.1\Apps\AsyncGenericRepository\LoggerService\obj\Debug\netcoreapp2.1\LoggerService.dll
+D:\GIT Repos\ASP.NET-Core-2.1\Apps\AsyncGenericRepository\LoggerService\obj\Debug\netcoreapp2.1\LoggerService.pdb

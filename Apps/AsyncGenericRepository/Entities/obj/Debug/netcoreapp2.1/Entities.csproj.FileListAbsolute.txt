@@ -1,0 +1,9 @@
+D:\GIT Repos\ASP.NET-Core-2.1\Apps\AsyncGenericRepository\Entities\bin\Debug\netcoreapp2.1\Entities.deps.json
+D:\GIT Repos\ASP.NET-Core-2.1\Apps\AsyncGenericRepository\Entities\bin\Debug\netcoreapp2.1\Entities.dll
+D:\GIT Repos\ASP.NET-Core-2.1\Apps\AsyncGenericRepository\Entities\bin\Debug\netcoreapp2.1\Entities.pdb
+D:\GIT Repos\ASP.NET-Core-2.1\Apps\AsyncGenericRepository\Entities\obj\Debug\netcoreapp2.1\Entities.csprojAssemblyReference.cache
+D:\GIT Repos\ASP.NET-Core-2.1\Apps\AsyncGenericRepository\Entities\obj\Debug\netcoreapp2.1\Entities.csproj.CoreCompileInputs.cache
+D:\GIT Repos\ASP.NET-Core-2.1\Apps\AsyncGenericRepository\Entities\obj\Debug\netcoreapp2.1\Entities.AssemblyInfoInputs.cache
+D:\GIT Repos\ASP.NET-Core-2.1\Apps\AsyncGenericRepository\Entities\obj\Debug\netcoreapp2.1\Entities.AssemblyInfo.cs
+D:\GIT Repos\ASP.NET-Core-2.1\Apps\AsyncGenericRepository\Entities\obj\Debug\netcoreapp2.1\Entities.dll
+D:\GIT Repos\ASP.NET-Core-2.1\Apps\AsyncGenericRepository\Entities\obj\Debug\netcoreapp2.1\Entities.pdb

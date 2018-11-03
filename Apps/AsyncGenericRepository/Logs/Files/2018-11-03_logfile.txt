@@ -1,0 +1,146 @@
+2018-11-03 00:00:02.8149 ERROR Some error in GetAllOwners Method: System.MissingMethodException: Method not found: 'System.Reflection.MethodInfo Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.get_SelectAsyncMethod()'.
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryModelVisitor.VisitSelectClause(SelectClause selectClause, QueryModel queryModel)
+   at Remotion.Linq.Clauses.SelectClause.Accept(IQueryModelVisitor visitor, QueryModel queryModel)
+   at Remotion.Linq.QueryModelVisitorBase.VisitQueryModel(QueryModel queryModel)
+   at Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.VisitQueryModel(QueryModel queryModel)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryModelVisitor.VisitQueryModel(QueryModel queryModel)
+   at Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.CreateAsyncQueryExecutor[TResult](QueryModel queryModel)
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.System.Collections.Generic.IAsyncEnumerable<TResult>.GetEnumerator()
+   at System.Linq.AsyncEnumerable.Aggregate_[TSource,TAccumulate,TResult](IAsyncEnumerable`1 source, TAccumulate seed, Func`3 accumulator, Func`2 resultSelector, CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\Aggregate.cs:line 118
+   at Repository.RepositoryBase`1.FindAllAsync() in D:\GIT Repos\ASP.NET-Core-2.1\Apps\AsyncGenericRepository\Repository\RepositoryBase.cs:line 23
+   at Repository.OwnerRepository.GetAllOwnersAsync() in D:\GIT Repos\ASP.NET-Core-2.1\Apps\AsyncGenericRepository\Repository\OwnerRepository.cs:line 23
+   at AsyncGenericRepository.Controllers.OwnerController.GetAllOwners() in D:\GIT Repos\ASP.NET-Core-2.1\Apps\AsyncGenericRepository\AsyncGenericRepository\Controllers\OwnerController.cs:line 28
+2018-11-03 00:01:57.1067 ERROR Some error in GetAllOwners Method: System.MissingMethodException: Method not found: 'System.Reflection.MethodInfo Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.get_SelectAsyncMethod()'.
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryModelVisitor.VisitSelectClause(SelectClause selectClause, QueryModel queryModel)
+   at Remotion.Linq.Clauses.SelectClause.Accept(IQueryModelVisitor visitor, QueryModel queryModel)
+   at Remotion.Linq.QueryModelVisitorBase.VisitQueryModel(QueryModel queryModel)
+   at Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.VisitQueryModel(QueryModel queryModel)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryModelVisitor.VisitQueryModel(QueryModel queryModel)
+   at Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.CreateAsyncQueryExecutor[TResult](QueryModel queryModel)
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.System.Collections.Generic.IAsyncEnumerable<TResult>.GetEnumerator()
+   at System.Linq.AsyncEnumerable.Aggregate_[TSource,TAccumulate,TResult](IAsyncEnumerable`1 source, TAccumulate seed, Func`3 accumulator, Func`2 resultSelector, CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\Aggregate.cs:line 118
+   at Repository.RepositoryBase`1.FindAllAsync() in D:\GIT Repos\ASP.NET-Core-2.1\Apps\AsyncGenericRepository\Repository\RepositoryBase.cs:line 23
+   at Repository.OwnerRepository.GetAllOwnersAsync() in D:\GIT Repos\ASP.NET-Core-2.1\Apps\AsyncGenericRepository\Repository\OwnerRepository.cs:line 23
+   at AsyncGenericRepository.Controllers.OwnerController.GetAllOwners() in D:\GIT Repos\ASP.NET-Core-2.1\Apps\AsyncGenericRepository\AsyncGenericRepository\Controllers\OwnerController.cs:line 28
+2018-11-03 00:02:16.2056 ERROR Some error in GetOwnerById Method: System.MissingMethodException: Method not found: 'System.Reflection.MethodInfo Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.get_SelectAsyncMethod()'.
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryModelVisitor.VisitSelectClause(SelectClause selectClause, QueryModel queryModel)
+   at Remotion.Linq.Clauses.SelectClause.Accept(IQueryModelVisitor visitor, QueryModel queryModel)
+   at Remotion.Linq.QueryModelVisitorBase.VisitQueryModel(QueryModel queryModel)
+   at Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.VisitQueryModel(QueryModel queryModel)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryModelVisitor.VisitQueryModel(QueryModel queryModel)
+   at Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.CreateAsyncQueryExecutor[TResult](QueryModel queryModel)
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.System.Collections.Generic.IAsyncEnumerable<TResult>.GetEnumerator()
+   at System.Linq.AsyncEnumerable.Aggregate_[TSource,TAccumulate,TResult](IAsyncEnumerable`1 source, TAccumulate seed, Func`3 accumulator, Func`2 resultSelector, CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\Aggregate.cs:line 118
+   at Repository.RepositoryBase`1.FindByConditionAsync(Expression`1 expression) in D:\GIT Repos\ASP.NET-Core-2.1\Apps\AsyncGenericRepository\Repository\RepositoryBase.cs:line 28
+   at Repository.OwnerRepository.GetOwnerByIdAsync(Guid OwnerId) in D:\GIT Repos\ASP.NET-Core-2.1\Apps\AsyncGenericRepository\Repository\OwnerRepository.cs:line 29
+   at AsyncGenericRepository.Controllers.OwnerController.GetOwnerById(Guid id) in D:\GIT Repos\ASP.NET-Core-2.1\Apps\AsyncGenericRepository\AsyncGenericRepository\Controllers\OwnerController.cs:line 43
+2018-11-03 00:02:21.6002 ERROR Some error in GetOwnerWithDetails Method: System.MissingMethodException: Method not found: 'System.Reflection.MethodInfo Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.get_SelectAsyncMethod()'.
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryModelVisitor.VisitSelectClause(SelectClause selectClause, QueryModel queryModel)
+   at Remotion.Linq.Clauses.SelectClause.Accept(IQueryModelVisitor visitor, QueryModel queryModel)
+   at Remotion.Linq.QueryModelVisitorBase.VisitQueryModel(QueryModel queryModel)
+   at Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.VisitQueryModel(QueryModel queryModel)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryModelVisitor.VisitQueryModel(QueryModel queryModel)
+   at Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.CreateAsyncQueryExecutor[TResult](QueryModel queryModel)
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.System.Collections.Generic.IAsyncEnumerable<TResult>.GetEnumerator()
+   at System.Linq.AsyncEnumerable.Aggregate_[TSource,TAccumulate,TResult](IAsyncEnumerable`1 source, TAccumulate seed, Func`3 accumulator, Func`2 resultSelector, CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\Aggregate.cs:line 118
+   at Repository.RepositoryBase`1.FindByConditionAsync(Expression`1 expression) in D:\GIT Repos\ASP.NET-Core-2.1\Apps\AsyncGenericRepository\Repository\RepositoryBase.cs:line 28
+   at Repository.OwnerRepository.GetOwnerByIdAsync(Guid OwnerId) in D:\GIT Repos\ASP.NET-Core-2.1\Apps\AsyncGenericRepository\Repository\OwnerRepository.cs:line 29
+   at Repository.OwnerRepository.GetOwnerWithDetailsAsync(Guid OwnerId) in D:\GIT Repos\ASP.NET-Core-2.1\Apps\AsyncGenericRepository\Repository\OwnerRepository.cs:line 35
+   at AsyncGenericRepository.Controllers.OwnerController.GetOwnerWithDetails(Guid id) in D:\GIT Repos\ASP.NET-Core-2.1\Apps\AsyncGenericRepository\AsyncGenericRepository\Controllers\OwnerController.cs:line 68
+2018-11-03 00:36:08.3678 ERROR Some error in GetAllOwners Method: System.MissingMethodException: Method not found: 'System.Reflection.MethodInfo Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.get_SelectAsyncMethod()'.
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryModelVisitor.VisitSelectClause(SelectClause selectClause, QueryModel queryModel)
+   at Remotion.Linq.Clauses.SelectClause.Accept(IQueryModelVisitor visitor, QueryModel queryModel)
+   at Remotion.Linq.QueryModelVisitorBase.VisitQueryModel(QueryModel queryModel)
+   at Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.VisitQueryModel(QueryModel queryModel)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryModelVisitor.VisitQueryModel(QueryModel queryModel)
+   at Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.CreateAsyncQueryExecutor[TResult](QueryModel queryModel)
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.System.Collections.Generic.IAsyncEnumerable<TResult>.GetEnumerator()
+   at System.Linq.AsyncEnumerable.Aggregate_[TSource,TAccumulate,TResult](IAsyncEnumerable`1 source, TAccumulate seed, Func`3 accumulator, Func`2 resultSelector, CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\Aggregate.cs:line 118
+   at Repository.RepositoryBase`1.FindAllAsync() in D:\GIT Repos\ASP.NET-Core-2.1\Apps\AsyncGenericRepository\Repository\RepositoryBase.cs:line 23
+   at Repository.OwnerRepository.GetAllOwnersAsync() in D:\GIT Repos\ASP.NET-Core-2.1\Apps\AsyncGenericRepository\Repository\OwnerRepository.cs:line 23
+   at AsyncGenericRepository.Controllers.OwnerController.GetAllOwners() in D:\GIT Repos\ASP.NET-Core-2.1\Apps\AsyncGenericRepository\AsyncGenericRepository\Controllers\OwnerController.cs:line 28
+2018-11-03 00:37:07.7566 ERROR Some error in GetAllOwners Method: System.MissingMethodException: Method not found: 'System.Reflection.MethodInfo Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.get_SelectAsyncMethod()'.
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryModelVisitor.VisitSelectClause(SelectClause selectClause, QueryModel queryModel)
+   at Remotion.Linq.Clauses.SelectClause.Accept(IQueryModelVisitor visitor, QueryModel queryModel)
+   at Remotion.Linq.QueryModelVisitorBase.VisitQueryModel(QueryModel queryModel)
+   at Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.VisitQueryModel(QueryModel queryModel)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryModelVisitor.VisitQueryModel(QueryModel queryModel)
+   at Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.CreateAsyncQueryExecutor[TResult](QueryModel queryModel)
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.System.Collections.Generic.IAsyncEnumerable<TResult>.GetEnumerator()
+   at System.Linq.AsyncEnumerable.Aggregate_[TSource,TAccumulate,TResult](IAsyncEnumerable`1 source, TAccumulate seed, Func`3 accumulator, Func`2 resultSelector, CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\Aggregate.cs:line 118
+   at Repository.RepositoryBase`1.FindAllAsync() in D:\GIT Repos\ASP.NET-Core-2.1\Apps\AsyncGenericRepository\Repository\RepositoryBase.cs:line 23
+   at Repository.OwnerRepository.GetAllOwnersAsync() in D:\GIT Repos\ASP.NET-Core-2.1\Apps\AsyncGenericRepository\Repository\OwnerRepository.cs:line 23
+   at AsyncGenericRepository.Controllers.OwnerController.GetAllOwners() in D:\GIT Repos\ASP.NET-Core-2.1\Apps\AsyncGenericRepository\AsyncGenericRepository\Controllers\OwnerController.cs:line 28
+2018-11-03 14:07:22.2287 ERROR Some error in GetAllOwners Method: System.MissingMethodException: Method not found: 'System.Reflection.MethodInfo Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.get_SelectAsyncMethod()'.
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryModelVisitor.VisitSelectClause(SelectClause selectClause, QueryModel queryModel)
+   at Remotion.Linq.Clauses.SelectClause.Accept(IQueryModelVisitor visitor, QueryModel queryModel)
+   at Remotion.Linq.QueryModelVisitorBase.VisitQueryModel(QueryModel queryModel)
+   at Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.VisitQueryModel(QueryModel queryModel)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryModelVisitor.VisitQueryModel(QueryModel queryModel)
+   at Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.CreateAsyncQueryExecutor[TResult](QueryModel queryModel)
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.System.Collections.Generic.IAsyncEnumerable<TResult>.GetEnumerator()
+   at System.Linq.AsyncEnumerable.Aggregate_[TSource,TAccumulate,TResult](IAsyncEnumerable`1 source, TAccumulate seed, Func`3 accumulator, Func`2 resultSelector, CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\Aggregate.cs:line 118
+   at Repository.RepositoryBase`1.FindAllAsync() in D:\GIT Repos\ASP.NET-Core-2.1\Apps\AsyncGenericRepository\Repository\RepositoryBase.cs:line 23
+   at Repository.OwnerRepository.GetAllOwnersAsync() in D:\GIT Repos\ASP.NET-Core-2.1\Apps\AsyncGenericRepository\Repository\OwnerRepository.cs:line 23
+   at AsyncGenericRepository.Controllers.OwnerController.GetAllOwners() in D:\GIT Repos\ASP.NET-Core-2.1\Apps\AsyncGenericRepository\AsyncGenericRepository\Controllers\OwnerController.cs:line 28
+2018-11-03 16:05:58.1951 ERROR Some error in GetAllOwners Method: System.InvalidOperationException: Cannot create a DbSet for 'IEnumerable<Owner>' because this type is not included in the model for the context.
+   at Microsoft.EntityFrameworkCore.DbContext.Finder(Type type)
+   at Microsoft.EntityFrameworkCore.DbContext.FindAsync[TEntity](Object[] keyValues)
+   at Repository.OwnerRepository.GetAllOwnersAsync() in D:\GIT Repos\ASP.NET-Core-2.1\Apps\AsyncGenericRepository\Repository\OwnerRepository.cs:line 24
+   at AsyncGenericRepository.Controllers.OwnerController.GetAllOwners() in D:\GIT Repos\ASP.NET-Core-2.1\Apps\AsyncGenericRepository\AsyncGenericRepository\Controllers\OwnerController.cs:line 28
+2018-11-03 16:21:52.0418 ERROR Some error in GetAllOwners Method: System.MissingMethodException: Method not found: 'System.Reflection.MethodInfo Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.get_SelectAsyncMethod()'.
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryModelVisitor.VisitSelectClause(SelectClause selectClause, QueryModel queryModel)
+   at Remotion.Linq.Clauses.SelectClause.Accept(IQueryModelVisitor visitor, QueryModel queryModel)
+   at Remotion.Linq.QueryModelVisitorBase.VisitQueryModel(QueryModel queryModel)
+   at Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.VisitQueryModel(QueryModel queryModel)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryModelVisitor.VisitQueryModel(QueryModel queryModel)
+   at Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.CreateAsyncQueryExecutor[TResult](QueryModel queryModel)
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.System.Collections.Generic.IAsyncEnumerable<TResult>.GetEnumerator()
+   at System.Linq.AsyncEnumerable.Aggregate_[TSource,TAccumulate,TResult](IAsyncEnumerable`1 source, TAccumulate seed, Func`3 accumulator, Func`2 resultSelector, CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\Aggregate.cs:line 118
+   at Repository.RepositoryBase`1.FindAllAsync() in D:\GIT Repos\ASP.NET-Core-2.1\Apps\AsyncGenericRepository\Repository\RepositoryBase.cs:line 23
+   at Repository.OwnerRepository.GetAllOwnersAsync() in D:\GIT Repos\ASP.NET-Core-2.1\Apps\AsyncGenericRepository\Repository\OwnerRepository.cs:line 22
+   at AsyncGenericRepository.Controllers.OwnerController.GetAllOwners() in D:\GIT Repos\ASP.NET-Core-2.1\Apps\AsyncGenericRepository\AsyncGenericRepository\Controllers\OwnerController.cs:line 28
+2018-11-03 16:46:48.2124 ERROR Some error in GetAllOwners Method: System.MissingMethodException: Method not found: 'System.Reflection.MethodInfo Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.get_SelectAsyncMethod()'.
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryModelVisitor.VisitSelectClause(SelectClause selectClause, QueryModel queryModel)
+   at Remotion.Linq.Clauses.SelectClause.Accept(IQueryModelVisitor visitor, QueryModel queryModel)
+   at Remotion.Linq.QueryModelVisitorBase.VisitQueryModel(QueryModel queryModel)
+   at Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.VisitQueryModel(QueryModel queryModel)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryModelVisitor.VisitQueryModel(QueryModel queryModel)
+   at Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.CreateAsyncQueryExecutor[TResult](QueryModel queryModel)
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.System.Collections.Generic.IAsyncEnumerable<TResult>.GetEnumerator()
+   at System.Linq.AsyncEnumerable.Aggregate_[TSource,TAccumulate,TResult](IAsyncEnumerable`1 source, TAccumulate seed, Func`3 accumulator, Func`2 resultSelector, CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\Aggregate.cs:line 118
+   at Repository.RepositoryBase`1.FindAllAsync() in D:\GIT Repos\ASP.NET-Core-2.1\Apps\AsyncGenericRepository\Repository\RepositoryBase.cs:line 24
+   at Repository.OwnerRepository.GetAllOwnersAsync() in D:\GIT Repos\ASP.NET-Core-2.1\Apps\AsyncGenericRepository\Repository\OwnerRepository.cs:line 22
+   at AsyncGenericRepository.Controllers.OwnerController.GetAllOwners() in D:\GIT Repos\ASP.NET-Core-2.1\Apps\AsyncGenericRepository\AsyncGenericRepository\Controllers\OwnerController.cs:line 28
+2018-11-03 17:14:42.4349 ERROR Some error in GetAllOwners Method: System.MissingMethodException: Method not found: 'System.Reflection.MethodInfo Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.get_SelectAsyncMethod()'.
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryModelVisitor.VisitSelectClause(SelectClause selectClause, QueryModel queryModel)
+   at Remotion.Linq.Clauses.SelectClause.Accept(IQueryModelVisitor visitor, QueryModel queryModel)
+   at Remotion.Linq.QueryModelVisitorBase.VisitQueryModel(QueryModel queryModel)
+   at Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.VisitQueryModel(QueryModel queryModel)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryModelVisitor.VisitQueryModel(QueryModel queryModel)
+   at Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.CreateAsyncQueryExecutor[TResult](QueryModel queryModel)
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.System.Collections.Generic.IAsyncEnumerable<TResult>.GetEnumerator()
+   at System.Linq.AsyncEnumerable.Aggregate_[TSource,TAccumulate,TResult](IAsyncEnumerable`1 source, TAccumulate seed, Func`3 accumulator, Func`2 resultSelector, CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\Aggregate.cs:line 118
+   at Repository.RepositoryBase`1.FindAllAsync() in D:\GIT Repos\ASP.NET-Core-2.1\Apps\AsyncGenericRepository\Repository\RepositoryBase.cs:line 24
+   at Repository.OwnerRepository.GetAllOwnersAsync() in D:\GIT Repos\ASP.NET-Core-2.1\Apps\AsyncGenericRepository\Repository\OwnerRepository.cs:line 22
+   at AsyncGenericRepository.Controllers.OwnerController.GetAllOwners() in D:\GIT Repos\ASP.NET-Core-2.1\Apps\AsyncGenericRepository\AsyncGenericRepository\Controllers\OwnerController.cs:line 28

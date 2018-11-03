@@ -1,0 +1,14 @@
+D:\GIT Repos\ASP.NET-Core-2.1\Apps\AsyncGenericRepository\Repository\bin\Debug\netcoreapp2.1\Repository.deps.json
+D:\GIT Repos\ASP.NET-Core-2.1\Apps\AsyncGenericRepository\Repository\bin\Debug\netcoreapp2.1\Repository.dll
+D:\GIT Repos\ASP.NET-Core-2.1\Apps\AsyncGenericRepository\Repository\bin\Debug\netcoreapp2.1\Repository.pdb
+D:\GIT Repos\ASP.NET-Core-2.1\Apps\AsyncGenericRepository\Repository\bin\Debug\netcoreapp2.1\Contracts.dll
+D:\GIT Repos\ASP.NET-Core-2.1\Apps\AsyncGenericRepository\Repository\bin\Debug\netcoreapp2.1\Entities.dll
+D:\GIT Repos\ASP.NET-Core-2.1\Apps\AsyncGenericRepository\Repository\bin\Debug\netcoreapp2.1\Contracts.pdb
+D:\GIT Repos\ASP.NET-Core-2.1\Apps\AsyncGenericRepository\Repository\bin\Debug\netcoreapp2.1\Entities.pdb
+D:\GIT Repos\ASP.NET-Core-2.1\Apps\AsyncGenericRepository\Repository\obj\Debug\netcoreapp2.1\Repository.csprojAssemblyReference.cache
+D:\GIT Repos\ASP.NET-Core-2.1\Apps\AsyncGenericRepository\Repository\obj\Debug\netcoreapp2.1\Repository.csproj.CoreCompileInputs.cache
+D:\GIT Repos\ASP.NET-Core-2.1\Apps\AsyncGenericRepository\Repository\obj\Debug\netcoreapp2.1\Repository.AssemblyInfoInputs.cache
+D:\GIT Repos\ASP.NET-Core-2.1\Apps\AsyncGenericRepository\Repository\obj\Debug\netcoreapp2.1\Repository.AssemblyInfo.cs
+D:\GIT Repos\ASP.NET-Core-2.1\Apps\AsyncGenericRepository\Repository\obj\Debug\netcoreapp2.1\Repository.csproj.CopyComplete
+D:\GIT Repos\ASP.NET-Core-2.1\Apps\AsyncGenericRepository\Repository\obj\Debug\netcoreapp2.1\Repository.dll
+D:\GIT Repos\ASP.NET-Core-2.1\Apps\AsyncGenericRepository\Repository\obj\Debug\netcoreapp2.1\Repository.pdb
