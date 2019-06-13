@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Sports Store</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        .placeholder {
+            visibility: collapse;
+            display: none
+        }
+
+        .placeholder:only-child {
+            visibility: visible;
+            display: flex
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row p-2">
+            <div class="col-2">
+                <a asp-controller="Home" asp-action="Index" class="@GetClassForButton("Home")">Products</a>
+                <a asp-controller="Categories" asp-action="Index" class="@GetClassForButton("Categories")">Categories</a>
+                <a asp-controller="Orders" asp-action="Index" class="@GetClassForButton("Orders")">Orders</a>
+                <a asp-controller="Seed" asp-action="Index" class="@GetClassForButton("Seed")">Seed Data</a>
+            </div>
+            <div class="col">
+                @RenderBody()
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+@functions {
+    string GetClassForButton(string controller)
+    {
+        if(ViewContext.RouteData.Values["controller"].ToString() == controller)
+        {
+            return "btn btn-block btn-primary";
+        }
+        else
+        {
+            return "btn btn-block btn-outline-primary";
+        }
+    }
+}
