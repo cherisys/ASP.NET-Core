@@ -9,6 +9,7 @@ dotnet ef dbcontext scaffold
 
 
 //Re-Scaffolding Command
+
 dotnet ef dbcontext scaffold 
 "Server=(localdb)\MSSQLLocalDB;Database=ZoomShoesDb"
 "Microsoft.EntityFrameworkCore.SqlServer" 
