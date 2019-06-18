@@ -19,5 +19,6 @@ dotnet ef dbcontext scaffold
 --force --no-build
 
 // --force arguments tells EF Core to replace existing Data Models classes by new ones.
+
 // --no-build prevents the application from being build before the scaffolding process is performed.
 
